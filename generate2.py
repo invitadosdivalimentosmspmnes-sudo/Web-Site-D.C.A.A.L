@@ -116,7 +116,7 @@ body_rne = '''    <section class="section">
     rnpa="\n".join(dl_item(l, h) for l, h in rnpa_items),
 )
 
-write("rne-y-rnpa.html", page("rne-y-rnpa.html", "RNE y RNPA", hero_rne, body_rne))
+write("registros_provinciales.html", page("registros_provinciales.html", "RNE y RNPA", hero_rne, body_rne))
 
 
 # =========================================================
@@ -205,6 +205,6 @@ body_artesanales = '''    <section class="section">
     rpaa="\n".join(dl_item(l, h) for l, h in rpaa_items),
 )
 
-write("registro-de-artesanales.html", page("registro-de-artesanales.html", "Registro de Artesanales", hero_artesanales, body_artesanales))
+write("registros_nacionales.html", page("registros_nacionales.html", "Registro de Artesanales", hero_artesanales, body_artesanales))
 
 print("Part 2 done: rne-y-rnpa + registro-de-artesanales")
