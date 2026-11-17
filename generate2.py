@@ -30,6 +30,7 @@ rne_items = [
     ("5- Lista de Chequeo", dl(RNE_CAT, "05-lista-de-chequeo.docx")),
     ("6 - Nota de Domicilio legal Misiones", dl(RNE_CAT, "06-nota-domicilio-legal-misiones.docx")),
     ("7- Informe de asistencia de Dirección Técnica", dl(RNE_CAT, "07-informe-asistencia-direccion-tecnica.docx")),
+    ("13- Notificación de Fasón", dl(RNE_CAT, "13-notificacion-de-fason.docx")),
 ]
 
 rnpa_items = [
@@ -86,6 +87,14 @@ body_rne = '''    <section class="section">
       <h2 class="section-title accent-purple">REGISTRO NACIONAL DE DE ESTABLECIMIENTOS (RNE)</h2>
       <p class="section-lead" style="font-style:italic;">DIVISIÓN DE CALIDAD DE ALIMENTOS, AGUA Y LABORATORIO</p>
       <p class="welcome-hint" style="margin:10px 0 0;">DESCARGUE EL INSTRUCTIVO DE SU INTERÉS</p>
+      <aside class="download-guide" aria-labelledby="download-guide-title">
+        <h3 id="download-guide-title">¿CÓMO DESCARGAR?</h3>
+        <ol>
+          <li>Haga clic en el instructivo que desea descargar.</li>
+          <li>El archivo se descargará en su dispositivo.</li>
+          <li>Luego podrá abrirlo y editarlo con una aplicación compatible.</li>
+        </ol>
+      </aside>
       <div class="download-list">
 {rne}
       </div>
