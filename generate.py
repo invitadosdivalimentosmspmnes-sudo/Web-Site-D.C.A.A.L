@@ -126,7 +126,7 @@ areas = [
 ]
 
 sectores = [
-    ("ÁREA DE ANÁLISIS MICROBIOLÓGICO", "microlabalimentosmspmnes@gmail.com", "Bioq. Gonzalo J. Alvarenga"),
+    ("ÁREA DE ANÁLISIS MICROBIOLÓGICO", "microlabalimentosmspmnes@gmail.com", "Bioq. Eliana M. Schweikofski"),
     ("ÁREA DE RECEPCIÓN DE MUESTRAS", "mspdivalimentosmuestras@gmail.com", "Téc. Brom. Valeria Caruso"),
     ("ÁREA DE ANÁLISIS FISICOQUÍMICO", "fq.labalimentosmspmnes@gmail.com", "Bioq. Mgter. Sergio Parafieniuk"),
     ("ÁREA DE ANÁLISIS DE GLUTEN", "labalimentosmnes@gmail.com", "Bioq. Mgter. Pablo Capaccio"),
@@ -211,7 +211,7 @@ body_ubicacion = '''    <section class="section">
         <p class="area-name">RESIDENCIA EN BIOQUÍMICA BROMATOLÓGICA</p>
         <a class="area-email" href="mailto:residenciabqcabromatologica@gmail.com">residenciabqcabromatologica@gmail.com</a>
         <p class="area-resp-label">Responsable:</p>
-        <p class="area-resp-name">Bioq. Ana Victoria Cerri</p>
+        <p class="area-resp-name">Bioq. Gabriel Molinari</p>
         <p class="location-note" style="margin-top:14px;">@Resi.bioqbromato.mnes<br>(Instagram de Actividades y Anuncios)</p>
       </div>
     </section>
